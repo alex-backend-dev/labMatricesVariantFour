@@ -17,9 +17,9 @@ namespace labMatrices
 
             Random random = new Random();
 
-            for (N = 0; N < A.GetLength(0); N++) // по строкам прошлись
+            for (N = 0; N < A.GetLength(0); N++) 
             {
-                for (M = 0; M < A.GetLength(1); M++) // по столбцам
+                for (M = 0; M < A.GetLength(1); M++) 
                 {
                     A[N, M] = random.Next(-500, 500);
                 }
@@ -27,9 +27,9 @@ namespace labMatrices
 
             Console.WriteLine("\nИсходный массив:");
 
-            for (N = 0; N < A.GetLength(0); N++) // по строкам прошлись
+            for (N = 0; N < A.GetLength(0); N++) 
             {
-                for (M = 0; M < A.GetLength(1); M++) // по столбцам
+                for (M = 0; M < A.GetLength(1); M++) 
                 {
                     Console.Write(A[N, M] + " ");
                 }
